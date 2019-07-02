@@ -10,8 +10,24 @@
 <body>
   <main>
     <h1>Using media queries with responsive design</h1>
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quas dicta
+      eius iure ut cupiditate temporibus animi nostrum voluptatibus magnam ipsum
+      illo quam aliquam repellat fuga, sapiente. Labore sit, harum!. Sed officiis,
+      delectus ex quam placeat obcaecati vero amet ducimus! Aliquid quaerat sequi
+      impedit, omnis delectus nemo fuga doloribus magni libero in aperiam qui illo
+      deleniti ex beatae, earum excepturi.
+    </p>
+    <div class="image-container">
+      <!--loading of optimized images according to the device width -->
+      <picture>
+        <source srcset="images/bike=photo-small.jpg" media="(max-width:375px)">
+        <img src="images/bike=photo.jpg" alt="" class="bike-photo">
+      </picture>
+    </div>
     <div class="box-1"></div>
     <div class="box-2"></div>
   </main>
+  <script src="js/main.js"></script>
 </body>
 </html>
